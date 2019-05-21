@@ -1,0 +1,24 @@
+.register {
+  text-align: center;
+  h1 {
+    margin: 40px 0;
+  }
+  main {
+    width: 700px;
+    height: 300px;
+    background: #bbb;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  > button {
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background: #bbb;
+    border: 1px solid #bbb;
+  }
+}

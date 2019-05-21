@@ -1,0 +1,17 @@
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.home {
+  background-color: teal;
+  overflow: hidden;
+  .btn-home {
+    color: blue;
+    float: left;
+  }
+  .btn-login {
+    margin-right: 50px;
+  }
+}
