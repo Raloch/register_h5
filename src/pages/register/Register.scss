@@ -1,3 +1,5 @@
+$button-color: #0099FF;
+$button-active-color: #9999FF;
 .register {
   text-align: center;
   h1 {
@@ -18,7 +20,27 @@
     height: 40px;
     margin-top: 30px;
     border-radius: 5px;
-    background: #bbb;
-    border: 1px solid #bbb;
+    background: $button-color;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    &:active {
+      background: $button-active-color;
+    }
+  }
+  .vertification-code {
+    button {
+      font-size: 14px;
+      border: 0;
+      background: $button-color;
+      color: #fff;
+      line-height: 24px;
+      margin-left: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      &:active {
+        background: $button-active-color;
+      }
+    }
   }
 }
